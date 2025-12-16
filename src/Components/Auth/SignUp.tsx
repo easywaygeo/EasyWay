@@ -50,7 +50,7 @@ const SignUp = () => {
 
       // Create BOG order
       const response = await axios.post(
-        "https://easyway-fmdo.onrender.com/create-order",
+        "https://easyway-nbqn.onrender.comcreate-order",
         {
           duration: selectedPacket.duration,
           type: selectedPacket.type,

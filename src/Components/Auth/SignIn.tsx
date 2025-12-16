@@ -20,9 +20,9 @@ const SignIn = () => {
       return console.log("გთხოვთ შეავსოთ ყველა ველი");
     }
 
-    // https://easyway-fmdo.onrender.com/
+    // https://easyway-nbqn.onrender.com
     axios
-      .post("https://easyway-fmdo.onrender.com/signin", {
+      .post("https://easyway-nbqn.onrender.comsignin", {
         email,
         password,
       })

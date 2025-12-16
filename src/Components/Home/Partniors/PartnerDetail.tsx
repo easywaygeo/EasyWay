@@ -44,7 +44,7 @@ const PartnerDetail = () => {
     const fetchPartner = async () => {
       try {
         const res = await axios.post(
-          "https://easyway-fmdo.onrender.com/getPartnerById",
+          "https://easyway-nbqn.onrender.comgetPartnerById",
           {
             id,
           }

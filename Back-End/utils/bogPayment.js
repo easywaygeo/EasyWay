@@ -49,7 +49,7 @@ const createOrder = async ({
     const orderId = `order_${product_id}_${Date.now()}`;
 
     const orderData = {
-      callback_url: "https://easyway-fmdo.onrender.com/callback",
+      callback_url: "https://easyway-nbqn.onrender.comcallback",
       external_order_id: orderId,
       purchase_units: {
         currency: "GEL",
