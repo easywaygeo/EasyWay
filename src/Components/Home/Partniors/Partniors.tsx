@@ -46,7 +46,7 @@ const Partniors: React.FC = () => {
     const fetchPartners = async () => {
       try {
         const res = await axios.post(
-          "https://easyway-nbqn.onrender.comloadPartners"
+          "https://easyway-nbqn.onrender.com/loadPartners"
         );
         const formatted: Partner[] = (res.data.partners as RawPartner[]).map(
           (p) => ({

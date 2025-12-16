@@ -25,7 +25,7 @@ const UserProfile = () => {
     if (!decoded || !decoded.id) return;
 
     axios
-      .post("https://easyway-nbqn.onrender.comuser/cards", {
+      .post("https://easyway-nbqn.onrender.com/user/cards", {
         userId: decoded.id,
       })
       .then((response) => {

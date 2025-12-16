@@ -32,7 +32,7 @@ const AddPartner = () => {
 
     try {
       const res = await axios.post(
-        "https://easyway-nbqn.onrender.comaddPartner",
+        "https://easyway-nbqn.onrender.com/addPartner",
         formData,
         {
           headers: { "Content-Type": "multipart/form-data" },
